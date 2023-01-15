@@ -1,0 +1,59 @@
+.post {
+    gap: 10px;
+    padding: 16px 32px 0 16px;
+}
+
+.post:hover {
+    cursor: pointer;
+    background: var(--gray-almost-black);
+}
+
+.post-author-picture {
+    width: 12%;
+}
+
+.post-content {
+    height: 100%;
+    width: 88%;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+.post-header {
+    padding-bottom: 10px;
+    gap: 30px;
+}
+
+.post-author-username {
+    font-weight: bold;
+    width: 40%;
+}
+
+.post-description {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.post-author-username:hover {
+    text-decoration: underline;
+}
+
+.post-creation-date {
+    width: 60%;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.post-creation-date:hover {
+    text-decoration: underline;
+}
+
+.post-icons {
+    gap: 150px;
+    justify-content: center;
+}
+
+.post-icon {
+    align-items: center;
+    gap: 15px;
+}

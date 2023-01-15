@@ -1,0 +1,29 @@
+.menu-panel {
+    padding: 30px;
+    width: var(--menu-panel-width);
+    top: 0;
+    position: sticky;
+    height: 100vh;
+    justify-content: right;
+    gap: 15px;
+}
+
+.menu-item {
+    /*padding: 12px 15px 0 8px;*/
+    padding: 4% 4% 0 13%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 16px;
+    gap: 15px;
+}
+
+.menu-item-icon {
+    position: relative;
+    top: -10%;
+}
+
+.menu-item-icon2 {
+    position: relative;
+    top: -15%;
+    left: 3%;
+}

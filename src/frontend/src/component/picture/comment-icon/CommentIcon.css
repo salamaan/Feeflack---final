@@ -1,0 +1,20 @@
+.comment-icon {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.comment-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.comment-icon svg g {
+    fill: none;
+    stroke: var(--gray);
+    stroke-width: 25%;
+}
+
+.comment-icon:hover svg g {
+    stroke: var(--violet);
+}

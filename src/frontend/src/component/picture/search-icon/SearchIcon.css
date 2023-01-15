@@ -1,0 +1,11 @@
+.search-icon {
+    padding-top: 2px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.search-icon svg {
+    width: 18px;
+    height: 18px;
+}

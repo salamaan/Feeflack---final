@@ -1,0 +1,49 @@
+.comment {
+    gap: 10px;
+    padding: 16px 32px 8px 16px;
+}
+
+.comment:hover {
+    cursor: pointer;
+    background: var(--gray-almost-black);
+}
+
+.comment-author-picture {
+    width: 12%;
+}
+
+.comment-content {
+    height: 100%;
+    width: 88%;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+.comment-header {
+    padding-bottom: 10px;
+    gap: 30px;
+}
+
+.comment-author-username {
+    font-weight: bold;
+    width: 40%;
+}
+
+.comment-description {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.comment-author-username:hover {
+    text-decoration: underline;
+}
+
+.comment-creation-date {
+    width: 60%;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.comment-creation-date:hover {
+    text-decoration: underline;
+}

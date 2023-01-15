@@ -1,0 +1,60 @@
+.filter-panel {
+    padding: 1rem 2rem;
+    width: var(--filter-panel-width);
+    top: 0;
+    position: sticky;
+    height: 100vh;
+    gap: 40px;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: none;
+    background: var(--gray-almost-black);
+    gap: 5px;
+}
+
+.filter-input input {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.filter-input:focus-within {
+    border: 2px solid var(--violet-light);
+    padding: 14px 30px;
+}
+
+.filter-input:focus-within button svg g {
+    fill: var(--violet-light)
+}
+
+.filter-input input::placeholder {
+    color: var(--gray);
+}
+
+.filter-input input:focus {
+    background: var(--gray-almost-black);
+    outline: none;
+}
+
+.filter-buttons {
+    align-items: center;
+    gap: 30px;
+}
+
+.filter-button {
+    width: fit-content;
+    padding: 16px 32px;
+    border-radius: 32px;
+    background: var(--gray-almost-black);
+    gap: 15px;
+}
+
+.filter-header {
+    font-weight: bold;
+    font-size: 28px;
+}

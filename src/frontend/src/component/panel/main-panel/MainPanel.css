@@ -1,0 +1,14 @@
+.main-panel {
+    min-height: calc(100vh + 1px);
+    border-left: 0.1mm solid var(--gray-very-dark);
+    border-right: 0.1mm solid var(--gray-very-dark);
+    width: var(--main-panel-width);
+}
+
+.main-panel-header {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--violet);
+}

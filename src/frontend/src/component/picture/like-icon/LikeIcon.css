@@ -1,0 +1,23 @@
+.like-icon {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.like-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.not-liked svg g {
+    fill: none;
+    stroke: var(--gray);
+}
+
+.like-icon svg g {
+    stroke-width: 10%;
+}
+
+.like-icon:hover svg g {
+    stroke: var(--violet);
+}

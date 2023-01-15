@@ -1,0 +1,28 @@
+.app-button {
+    font: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--violet);
+    color: var(--white);
+    border: 1px solid var(--violet);
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+}
+
+.app-button:hover,
+.app-button:active {
+    background-color: var(--violet-dark);
+    border-color: var(--violet-dark);
+}
+
+.app-button:disabled,
+.app-button:disabled:hover,
+.app-button:disabled:active {
+    background-color: var(--gray);
+    color: var(--black);
+    border-color: var(--gray);
+    cursor: not-allowed;
+}

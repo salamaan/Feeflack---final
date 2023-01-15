@@ -1,0 +1,7 @@
+.app-title {
+    font-style: italic;
+    font-family: Candara, serif;
+    color: var(--gold);
+    font-size: 40px;
+    margin: 10px;
+}

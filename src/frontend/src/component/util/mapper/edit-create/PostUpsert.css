@@ -1,0 +1,84 @@
+.edit-post {
+    gap: 15px;
+    padding: 16px 32px 0 16px;
+}
+
+.edit-post:hover {
+    cursor: pointer;
+    background: var(--gray-almost-black);
+}
+
+.edit-post-author-picture {
+    width: 12%;
+}
+
+.edit-post-content {
+    height: 100%;
+    width: 88%;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+.edit-post-header {
+    padding-bottom: 10px;
+    gap: 30px;
+    height: 10%;
+}
+
+.edit-post-author-username {
+    font-weight: bold;
+    width: 40%;
+}
+
+.edit-post-description {
+    resize: none;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 3px solid var(--gray-very-dark);
+    padding: 12px 16px;
+    color: var(--white);
+    background: var(--black);
+    font-size: 16px;
+}
+
+.edit-post-description::placeholder {
+    color: var(--gray);
+}
+
+.edit-post-description:focus {
+    background: RGBA(0, 0, 0, 0);
+    border: 3px solid var(--violet-very-dark);
+    outline: none;
+}
+
+.edit-post-author-username:hover {
+    text-decoration: underline;
+}
+
+.edit-post-creation-date {
+    width: 60%;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.edit-post-creation-date:hover {
+    text-decoration: underline;
+}
+
+.edit-post-actions {
+    padding: 10px 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.edit-post-input-label {
+    padding: 0 10px;
+    position: absolute;
+    top: -11px;
+    left: 35px;
+    font-size: 21px;
+    background: var(--black);
+    color: var(--violet);
+}

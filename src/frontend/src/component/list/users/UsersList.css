@@ -1,0 +1,75 @@
+.user {
+    gap: 20px;
+    padding: 16px 32px 0 16px;
+}
+
+.user:hover {
+    cursor: pointer;
+    background: var(--gray-almost-black);
+}
+
+.user-profile-picture {
+    width: 12%;
+}
+
+.user-content {
+    height: 100%;
+    width: 88%;
+    font-size: 20px;
+}
+
+.follow-button {
+    width: 20%;
+    height: fit-content;
+}
+
+.user-header {
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.username {
+    font-weight: bold;
+    padding-right: 20px;
+    width: 40%;
+}
+
+.user-description {
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+.username:hover {
+    text-decoration: underline;
+}
+
+.user-creation-date {
+    width: 60%;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.user-creation-date:hover {
+    text-decoration: underline;
+}
+
+.followers-following {
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.followers-following-number {
+    padding-right: 5px;
+}
+
+.followers:hover,
+.following:hover {
+    text-decoration: underline;
+}
+
+.followers-following-description {
+    color: var(--gray);
+    font-style: italic;
+}

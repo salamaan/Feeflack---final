@@ -1,0 +1,8 @@
+.link-button-dot {
+    border-radius: 100%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 108px;
+    background-color: var(--white);
+}

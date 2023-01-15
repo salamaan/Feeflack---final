@@ -1,0 +1,25 @@
+.welcome-image {
+    position: absolute;
+    top: calc(50% - 175px);
+    left: calc(50% - 175px);
+}
+
+.welcome-text {
+    position: absolute;
+    top: calc(50% - 85px);
+    left: calc(50% - 218px);
+    z-index: 5;
+    color: var(--gold);
+}
+
+.welcome-text h1 {
+    font-size: 128px;
+}
+
+.welcome-animation {
+    animation: mymove 1.7s infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+}
